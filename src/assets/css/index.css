@@ -1,0 +1,718 @@
+/*home*/
+#app{font-family: 微软雅黑;
+overflow: hidden;
+}
+.box_middle .el-pagination{text-align: center;}
+.fenye{
+	padding: 20px 0;
+}
+:focus{
+	 outline: none;
+}
+.bgFunc{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: arial;
+}
+#app a{text-decoration: none;}
+	.ihome{
+		/*width: 1200px;*/
+		margin: auto;
+		padding-top: 30px;
+	}
+	.ihome .ihomeHead{
+		padding: 0 24px;
+		background: #fff;
+		margin-bottom: 10px;
+	}
+	.ihome .ihomeHead span{
+		display: inline-block;
+		font-size: 18px;
+		font-weight: bold;
+		color: #676767;
+		padding: 20px 24px 20px 0;
+		border-right: 1px solid #eee;
+	}
+	.ihome .ihomeHead a{
+		padding: 20px 21px;
+		margin: 0 10px;
+		color: #676767;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: none;
+		position: relative;
+	}
+	.ihome .ihomeHead a>i{
+		position: absolute;
+		width: 30px;
+		height: 2px;
+		background: #fff;
+		bottom: 10px;
+    	left: 27px;
+	}
+	.ihome .ihomeHead a:hover{
+		color: #1d7efe;
+	}
+	/*.ihome .ihomeHead a:hover i{
+		background: #1d7efe;
+	}*/
+	.ihome .ihomeHead .ihomeHeadA{
+		color: #1d7efe;
+	}
+	.ihome .ihomeHead .ihomeHeadA i{
+		background: #1d7efe;
+	}
+	.ihomeBox{
+		/*width: 1200px;*/
+		margin: auto;
+	}
+	.ihomeBoxH{
+		background: #fff;
+	}
+	.ihomeBoxH_list{
+		padding: 45px 0;
+		text-align: center;
+		border-right: 1px solid #eee;
+		
+	}
+	.ihomeBoxH_list>p{
+		color: #989898;
+		padding-top: 18px;
+	}
+	.ihomeBoxH ul{
+		margin: 0;
+		padding: 32px 0;
+		text-align: center;
+		list-style: none;
+		position: relative;
+		color: #174efe;
+		font-weight: bold;
+	}
+	.ihomeBoxH ul span{
+		font-size: 50px;
+		font-weight: bold;
+		color: #174efe;
+	}
+	.ihomeBoxH ul li p{
+		color: #666;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.ihomeBoxH ul:hover p{
+		color: #1D7EFE;
+	}
+	.ihomeBoxH ul li i{
+		position: absolute;
+		width: 1px;
+		height: 60px;
+		background: #eee;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+	.ihomeBoxM{
+		margin-top: 20px;
+		background: #fff;
+		margin-bottom: 20px;
+	}
+	.ihomeBoxM>div{
+		width: 584px;
+		padding: 0px 15px 30px 22px;
+	}
+	.ihomeBoxM>.ihomeBoxM_left{
+		width: 584px;
+		border-right: 1px dotted #eee;
+	}
+	.ihomeBoxM>div>h1{
+	}
+	.ihomeBoxM>div>h1>span img{padding-right: 3px;}
+	.ihomeBoxM>div>h1>span{
+		font-size:18px ;
+		font-weight: bold;
+		color: #676767;
+	}
+	.ihomeBoxM>div>h1>a{
+		font-size: 14px;
+		font-weight: bold;color: #676767;
+	}
+	.ihomeBoxM>div>h1>a:hover{
+		color:#1D7EFE ;
+	}
+	.ihomeBoxM_table table{
+		width: 100%;
+	}
+	.ihomeBoxM_table table thead{
+		text-align: center;
+	}
+	.ihomeBoxM_table table thead th{
+		padding:  15px;
+		text-align: center;
+		max-width: 100px;
+		overflow: hidden;
+		text-overflow: inherit;
+	    background: #f3f3f3;
+	    font-weight: normal;
+	}
+	.ihomeBoxM_table table tbody th{
+		padding: 10px 0;
+		font-weight: normal;
+		border-bottom:1px solid #f3f3f3 ;
+	}
+	.ihomeBoxM_table table tbody div{
+		max-width: 100px;
+		text-align: center;
+		overflow: hidden;
+		text-overflow:ellipsis;
+		white-space: nowrap;
+	}
+	.ihomeBoxM_table table tbody .avatar{
+		width: 53px;
+		height: 62px;
+		position: relative;
+	}
+	.ihomeBoxM_table table tbody .avatarT{
+		background: none;
+	}
+	.ihomeBoxM_table table tbody .avatar p{
+		width: 40px;
+		height: 40px;
+		overflow: hidden;
+		border-radius: 50%;
+		position: absolute;
+		top: 13px;
+    	left: 4px;
+		padding: 0;
+		margin: 0;
+	}
+	.ihomeBoxM_table table tbody .avatar p img{width: 100%;}
+	.ihomeBoxM_table table tbody div{color: #a1a1a1;}
+	.ihomeBoxM_table table tbody div a{
+		color: #a1a1a1;
+	}
+	.ihomeBoxM_table table tbody div a:hover{
+		color: #1D7EFE;
+	}
+	.ihomeBoxM_table .el-table td,  .ihomeBoxM_table .el-table th {
+		text-align:center;
+	}
+
+
+	.allTop{
+		/*width: 1200px;*/
+		margin: auto;
+		padding-top: 30px;
+	}
+	.box_top{
+		padding: 25px 28px;
+		background: #fff;
+		font-size: 12px;
+		color: #999;
+	}
+	.allTop .box_top span>a{
+			color: #58a0fd;
+	}
+	.allTop .box_top>a{
+		color: #999;
+	}
+	.allTop .box_top>a:hover{
+		color: #1c7ffe;
+	}
+	.allTop .box_middle{
+		margin-top: 12px;
+		background: #fff;
+		padding: 32px 22px;
+		margin-bottom: 20px;
+		/*position:relative;*/
+	}
+	.allTop .box_middle .box_search{
+		padding-bottom: 32px;
+		border-bottom: 1px solid #f3f3f3;
+	}
+	.allTop .box_middle .box_search .box_input{
+		width: 390px;
+		height: 40px;
+		border: 1px solid #666;
+		margin: auto;
+		position: relative;
+	}
+	.box_middle .box_search .box_input input{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border: none;
+		text-indent: 10px;
+		color: #666;
+		font-size: 12px;
+		padding-right: 60px;
+	}
+	.box_middle .box_search .box_input span{
+		position: absolute;
+		width: 50px;
+		height: 100%;
+		right: 0;
+		border-left: 1px solid #666;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.box_middle>h1{
+		font-size: 18px;
+	    font-weight: bold;
+	    color: #676767;
+	}
+	.box_middle  .ihomeBoxM_table table tbody div{
+		width: 100%;
+		max-width: 230px;
+		background-repeat: no-repeat;
+		margin: auto;
+	}
+	.box_middle .ihomeBoxM_table table tbody .avatar p{
+	    top: 13px;
+		left: 20px;
+	}
+	.alltop_none{
+		text-align: center;
+		height: 100%;
+		padding:160px 0 200px;
+	}
+	.alltop_none p{
+		color: #999;
+		padding-top: 20px;
+	}
+	.box_middle .el-pagination{color: #666;}
+	.ihomeBoxM_tablechange table thead th{
+		padding: 0;
+	}
+	.ihomeBoxM_tablechange .el-table .cell{
+		max-width: 100px;
+	    text-align: center;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    white-space: nowrap;
+	}
+	.ihomeBoxM_tablechange .has-gutter .el-table_1_column_1 {
+		padding: 13px 0;
+	}
+/*流量宝*/
+.index_title {
+	padding: 40px 0 20px;
+	color: #333;
+	font-weight: bold;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+}
+
+.index_span {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	border-radius: 50%;
+	background: #409eff;
+	margin-right: 10px;
+}
+.input {
+	padding-top: 15px;
+	padding-right: 20px;
+	background: #fff;
+	border-radius: 5px;
+}
+.input label{text-align: center;color: #313131;font-weight: normal;}
+.el-table th>.cell{text-align: center;}
+.tablebox{
+	margin-top: 15px;
+}
+.fenye{
+	padding: 15px 0;
+	text-align: center;
+	background: #fff;
+	margin-bottom: 20px;
+}
+/*在线客服*/
+.title_h2 {
+	padding: 10px;
+	text-align: left;
+	background: #409eff;
+	color: #fff;
+}
+
+/*btb*/
+.Btbbox{
+	background: #fff;
+	border-radius: 5px;
+	
+}
+.Btbbox>h1{
+		margin: 0;
+		padding: 0;
+		font-weight: bold;
+	    font-size: 18px;
+	    color: #666666;
+	    padding: 20px;
+	    margin: 0;
+	    border-bottom: 1px solid #eee;
+}
+.Btbbox .txtTbox{
+	padding: 20px 0 10px;
+	margin: 0 20px;
+	border-bottom: 1px solid #eee;
+}
+.Btbbox .txtTop{
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+    color: #808080;
+    padding-bottom: 10px;
+}
+.Btbbox .txtTop label{
+	font-weight: bold;
+}
+.Btbbox .txtTop span{
+	
+}
+.Btbbox .BtbImg h3{
+	font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    border: none;
+    color: #666666;
+    padding: 20px;
+}
+.Btbbox .BtbImg h3 span{
+	color: red;
+    font-size: 12px;
+}
+.Btbbox .BtbImg h3 i{
+	display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #00c1ef;
+    margin-right: 10px;
+}
+.Btbbox .BtbImg .minImg{
+	padding: 0 40px;
+}
+
+.Btbbox .Btbsubmit{
+	padding: 20px 0;
+	margin: 10px 20px 20px;
+	border-top: 1px solid #eee;
+}
+.btbHead{
+	border-bottom: 1px solid #eee;
+}
+
+/*模板*/
+.templataTop{
+	background: #fff;
+}
+  .MaskHover{
+  	position: relative;
+  }
+  .MaskBox{
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+  	top: 0;
+  	left: 0;
+  	display: none;
+  	z-index: 99;
+  	background: rgba(0,0,0,.5);
+  	color: #fff;
+  	text-align: center;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  }
+  .MaskBox>p{
+  	font-size: 24px;
+  	color: #fff !important;
+  }
+  .MaskHover:hover .MaskBox{
+  	display: flex;
+  }
+  .filesBox{
+  	position: relative;
+  	overflow: hidden;
+  	top: 15px;
+  }
+  .filesBox>input{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	z-index: 10;
+  	opacity: 0;
+  	display: inline-block;
+  	width: 180px;
+  	height: 40px;
+  }
+  .addNode{
+  	margin: 5px 0;
+  	padding: 5px 0;
+  	text-align: center;
+  }
+  .deleteAll{padding:5px !important;}
+.INputAll{
+	width: auto;
+	height: auto;
+	border: none;
+	display: inline;
+	background: none;
+}
+.INputAll:focus{border: 1px dotted #1994FF;box-shadow: none;    outline-offset:0px;outline: none;}
+
+.input[type=file]{display: none !important;}
+#cardAside .el-scrollbar__wrap{overflow-x: hidden;}
+.cardMain{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+.cardMain .el-main{
+	background: #fff;
+}
+.cardSetting_headImgP{
+    color: #e6a23c;
+    font-size: 12px;
+    padding: 3px 2px;
+}
+
+.recommendBox .el-dialog__header,.recommendBox .el-dialog__body{padding: 10px;}
+.recommendBox .el-dialog__header{
+	margin-bottom: 0;
+}
+.recommendBox .recommendBoxAbt{
+	padding: 30px 0 20px;
+}
+.recommendBox .recommendBoxAbt .el-button{
+	padding: 12px 40px;
+}
+.card_allproductList li{
+	list-style: none;
+	padding: 0;
+	margin: 5px;
+	margin-bottom: 10px;
+	box-shadow: -8px 3px 37px -1px rgba(226, 222, 222, 0.8);
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.card_allproductList li>div{
+	width: 100%;
+	border-radius: 5px;
+	border-bottom-right-radius:0 ;
+	border-bottom-left-radius:0 ;
+	overflow: hidden;
+	position: relative;
+	
+}
+.card_allproductList li>p{
+	padding:3px  0;
+	margin: 0;
+	text-align: center;
+}
+.card_allproductList li>div>p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	line-height: 120px;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;	
+	cursor: pointer;
+}
+/*名片编辑区样式*/
+.cardEditmodule>.el-alert{
+	height: 52px;
+	background: #f4f9fa;
+	font-size: #666;
+	font-size: 18px;
+	font-weight: bold;
+}
+.cardEditmodule .title_circle{
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #409EFF;
+	margin-right: 5px;
+}
+.cardEditmodule  .el-collapse-item__header{
+	font-weight: bold;
+	color: #333;
+	margin-top: 7px;
+}
+.cardEditmodule .el-collapse-item__arrow{
+	margin-right: 10px;
+}
+.cardEditmodule  .el-collapse-item__wrap{
+	border-bottom: 1px dashed    #ebeef5;
+}
+.cardEditmodule .cardEditmodule_conter{
+	padding:7px 10px 9px 10px;
+}
+.cardEditmodule .card_errorTxt{
+	color: red;
+	font-size: 12px;
+}
+.cardEditmodule  .el-collapse{border: none;}
+.cardEditmodule .cardEditmodule_conterProduct_upimg  .card_productList_img{
+	width: 100%;
+}
+.cardEditmodule .cardEditmodule_conterProduct_upimg .el-upload--picture-card{
+	width: 100%;
+	height: 100%;
+	background: none;
+	border: none;
+	line-height: 170px;
+	font-weight: bold;
+}
+.el-collapse-item__content{
+	padding: 0;
+}
+.cardEditmodule_ProductFormTitle{
+	padding: 17px 0 13px;
+	margin: 0;
+}
+.card_allproductList{
+	margin: 0;padding: 0;text-align: center;
+	display: flex;
+	flex-flow: wrap;
+	
+}
+.el-upload-list__item:first-child {
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 0 12px;
+}
+.el-collapse-item__content .el-textarea__inner{
+	height: 120px;
+}
+.card_allproductList li>div{
+	width: 100%;
+	border-radius: 5px;
+	border-bottom-right-radius:0 ;
+	border-bottom-left-radius:0 ;
+	overflow: hidden;
+	position: relative;
+}
+.card_allproductList li>p{
+	padding: 6px 0;
+	margin: 0;
+}
+.card_allproductList li>div>p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	color: #fff;
+	text-align: center;
+	line-height: 120px;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.5);
+	display: none;	
+	cursor: pointer;
+}
+.dialogcropper_box .el-dialog__header{
+	padding: 30px 0 30px 40px;
+	border-bottom: 1px dashed #ccc;
+	font-weight: bold;
+}
+.dialogcropper_box  .el-dialog__body{
+	padding: 0;
+}
+.cardEditmodule_ProductFormAbt{
+	margin-top: 30px;
+	text-align: center;
+}
+.cardEditmodule_ProductFormAbt .el-button{
+	    padding: 12px 40px;
+}
+.el-upload-dragger .el-icon-picture{
+	font-size: 67px;
+    color: #c0c4cc;
+    margin:50px 0 16px;
+    line-height: 50px;
+}
+.recommendBox  .el-dialog__header{
+	padding: 30px 0 30px 40px;
+	border-bottom: 1px dashed #ccc;
+	font-weight: bold;
+}
+.recommendBox  .el-dialog__body{
+	padding: 0;
+}
+.cardImg_dianz{
+	padding: 10px 30px;
+    width: 338px;
+    box-shadow: rgba(0, 108, 255, 0.15) 0px 0px 24px 0px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 21px auto 5px;
+}
+.cardpreview .el-dialog__header{display: none;}
+.cardpreview .el-dialog__body{padding: 0;}
+.cardpreview {
+	width: 375px;
+}
+.product_DetailsTxt img{
+	width: 100%;
+}
+.minVideoShow{
+	border-radius: 5px;
+	overflow: hidden;
+}
+.telphoneiconfont{display: flex;
+align-items: center;}
+.telphoneiconfont  img{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+}
+.telphoneiconfont .iconfont{
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: block;
+	font-size: 12px;
+}
+.emailiconfont{
+	
+}
+.proSetBanner{
+	position: relative;
+}
+.proSetBanner>.proSetBanner_delect{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+	display: none;
+	cursor: pointer;
+}
+.proSetBanner:hover .proSetBanner_delect{display: block;}
+.el-date-editor .el-range-separator{width: 10%;}
+.el-container {
+    height: 100%;
+    overflow: auto !important;
+}

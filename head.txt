@@ -1,0 +1,47 @@
+		<!--ztc.bjyhsmgs.com-->
+		<div id="xinrong_head">
+			<a href="http://www.bjyhsmgs.com/" id="xinrong_logo"><img src="http://wayb00.org/file/upload/201409/05/17-28-19-17-1.png" alt=" 欢迎观临宝商网"width="40%"></a>
+			<div id="xinrong_head_r">
+				欢迎，<span style="color: red;">客人</span>
+				<a href="http://www.bjyhsmgs.com/member/login.php">请登录</a>
+				<a href="http://www.bjyhsmgs.com/member/register.php">免费注册</a>
+				<span>客服中心：40000-99990</span>
+			</div>
+		</div>
+		<div id="xinrong_foot">
+			<a href="http://bjyhsmgs.com/">网站首页</a>
+			<a href="http://bjyhsmgs.com/about/index.html">关于我们</a> 
+			<a href="http://bjyhsmgs.com/about/contact.html">联系方式</a> 
+			<a href="http://bjyhsmgs.com/about/agreement.html">使用协议</a> 
+			<a href="http://bjyhsmgs.com/about/copyright.html">版权隐私</a> 
+			<a href="http://bjyhsmgs.com/sitemap/">网站地图</a>
+			<a href="http://bjyhsmgs.com/spread/">排名推广</a>
+			<a href="http://bjyhsmgs.com/ad/">广告服务</a> 
+			<a href="http://bjyhsmgs.com/gift/">积分换礼</a>
+			<a href="http://bjyhsmgs.com/guestbook/">网站留言</a> 
+			<a href="http://bjyhsmgs.com/feed/">RSS订阅</a> 
+			<a href="http://bjyhsmgs.com/" target="_blank" rel="nofollow">©版权所有：岳华网</a>
+		</div>
+		<!--ztc.bjshwyny.com-->
+		<div id="xinrong_head">
+			<a href="http://www.bjshwyny.com/" id="xinrong_logo"><img src="http://wayb00.org/file/upload/201409/05/17-28-19-17-1.png" alt="欢迎观临宝商网"width="40%"></a>
+			<div id="xinrong_head_r">
+				欢迎，<span style="color: red;">客人</span>
+				<a href="http://www.bjshwyny.com/member">会员中心</a>
+				<span>客服中心：40000-99990</span>
+			</div>
+		</div>
+		<div id="xinrong_foot">
+			<a href="http://bjshwyny.com/">网站首页</a>
+			<a href="http://bjshwyny.com/about/index.html">关于我们</a> 
+			<a href="http://bjshwyny.com/about/contact.html">联系方式</a> 
+			<a href="http://bjshwyny.com/about/agreement.html">使用协议</a> 
+			<a href="http://bjshwyny.com/about/copyright.html">版权隐私</a> 
+			<a href="http://bjshwyny.com/sitemap/">网站地图</a>
+			<a href="http://bjshwyny.com/spread/">排名推广</a>
+			<a href="http://bjshwyny.com/ad/">广告服务</a> 
+			<a href="http://bjshwyny.com/gift/">积分换礼</a>
+			<a href="http://bjshwyny.com/guestbook/">网站留言</a> 
+			<a href="http://bjshwyny.com/feed/">RSS订阅</a> 
+			<a href="http://bjshwyny.com/" target="_blank" rel="nofollow">©版权所有：盛宏网</a>
+		</div>	
